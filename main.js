@@ -13,3 +13,5 @@ const toggleBurger = (menuClass, showClass) => {
 button.addEventListener("click", () => {
   toggleBurger("header-menu", "header-menu-show");
 });
+
+console.log("Hello world");
